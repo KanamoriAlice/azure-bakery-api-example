@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AzuresdkApplication",
+            "request": "launch",
+            "mainClass": "com.azuresdk.config.AzuresdkApplication",
+            "projectName": "azuresdk"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AzuresdkApplication<azuresdk>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.azuresdk.azuresdk.AzuresdkApplication",
+            "projectName": "azuresdk",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
